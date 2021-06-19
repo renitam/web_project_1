@@ -1,6 +1,4 @@
-div, section, h1, h2, h3, body, footer {
-  border: 5px solid red;
-}
+
 
 .page {
   min-width: 1100px;
@@ -11,43 +9,44 @@ div, section, h1, h2, h3, body, footer {
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  position: relative;
 }
+
+/* Header block */
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
+  position: relative;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-wrap: initial;
   justify-content: space-between;
+  background-color: #F2F2F2;
 }
 
 .logo {
-  max-width: 154px;
-  max-height: 31px;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
   width: 100%;
   height: 100%;
 }
 
+.logo_place_header {
+  max-width: 154px;
+  max-height: 31px;
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  left: 64px;
+}
+
 .header__title {
   width: 730px;
-  position: absolute;
-  left: 64px;
-  z-index: 1;
+  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   color: black;
+  align-self: center;
+  z-index: 1;
 }
 
 .header__subtitle {
@@ -58,8 +57,7 @@ div, section, h1, h2, h3, body, footer {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  color: black;
-  display: flexbox;
+  color: #000000;
 }
 
 .header__link {
@@ -67,8 +65,8 @@ div, section, h1, h2, h3, body, footer {
 }
 
 .header__main-illustration {
-  max-width: 756px;
-  max-height: 608px;
+  width: 756px;
+  height: 608px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -81,16 +79,283 @@ div, section, h1, h2, h3, body, footer {
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
   background-color: #2F80ED;
-  margin-right: 0;
-  margin-top: 64;
+  top: 64px;
+  right: 0;
   z-index: 0;
 }
 
 /* including elements with key-value modifiers */
+
+/* Description block */
+
+.description {
+  margin-top: 100px;
+}
+
+.two-columns__brief {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.two-columns__brief-header {
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2F80ED;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.two-columns__paragraph {
+  margin: 0 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-weight: bold;
+}
+
+/* Digits block */
+
+.digits {
+  margin: 100px auto;
+  display: flexbox;
+}
+
+.section-title {
+  width: 60%;
+  margin: 0 auto 0;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: 20px auto 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.table__cell {
+  width: 250px;
+  list-style: none;
+  padding: 0;
+  margin: 60px 0 0 0;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 20px 0 0 0;
+}
+
+/* Feynman block */
+
+.feynman {
+  padding-top: 100px;
+  box-sizing: border-box;
+  height: 790px;
+  background-color: #F2F2F2;
+  margin: 0;
+  display: flexbox;
+  position: relative;
+}
+
+.feynman__title {
+  width: 775px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+ margin: 70px auto 0;
+ position: relative;
+ text-align: center;
+ line-height: 51px;
+ font-size: 36px;
+ font-weight: normal;
+ z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2F80ED;
+}
+
+.feynman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Kaufman block */
+
+.kaufman {
+  padding: 90px 0;
+  box-sizing: border-box;
+  background-color: #1F1F1F;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title_theme_dark {
+  color: white;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  position: relative;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table__cell_theme_dark:last-of-type {
+  padding-bottom: 90px;
+}
+
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  top: 0;
+  right: -124px;
+}
+
+/* Footer block */
+
+.footer {
+  min-height: 350px;
+  padding: 60px 0 40px;
+  margin: 0 0 0 0;
+  background-color: #1F1F1F;
+  color: #ffffff;
+  display: flex;
+}
+
+.footer__columns {
+  width: 90%;
+  min-height: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__column_content_about {
+
+}
+
+.footer__column_content_social {
+
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  margin: 18px 0;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__list {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__column-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__social-icons {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
 }
