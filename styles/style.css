@@ -84,7 +84,6 @@
   background-color: #2F80ED;
   top: 64px;
   right: 0;
-  z-index: 0;
 }
 
 /* including elements with key-value modifiers */
@@ -249,6 +248,7 @@
 
 .section-title_theme_dark {
   color: white;
+  position: inherit;
   z-index: 1;
 }
 
