@@ -48,7 +48,7 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 }
 
 .header__title {
-  width: 730px;
+  max-width: 730px;
   margin: auto 64px;
   line-height: 96px;
   font-size: 102px;
@@ -59,7 +59,7 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 }
 
 .header__subtitle {
-  width: 388px;
+  max-width: 388px;
   margin: 0;
   position: absolute;
   left: 64px;
@@ -115,7 +115,7 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 
 /* Called "two-columns__brief" in project instructions*/
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -124,7 +124,7 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 }
 
 .two-columns__main-text {
-  width: 80%;
+  max-width: 80%;
   min-width: 784px;
   display: flex;
   flex-direction: column;
@@ -152,7 +152,7 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 }
 
 .section-title {
-  width: 60%;
+  max-width: 60%;
   margin: 0 auto 0;
   line-height: 69px;
   font-size: 60px;
@@ -161,7 +161,7 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 }
 
 .section-subtitle {
-  width: 60%;
+  max-width: 60%;
   margin: 20px auto 0;
   line-height: 34px;
   font-size: 24px;
@@ -211,7 +211,7 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 }
 
 .feynman__title {
-  width: 775px;
+  max-width: 775px;
   margin: 100px auto 0;
   position: relative;
   text-align: center;
