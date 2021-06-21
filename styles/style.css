@@ -26,6 +26,8 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
   /* parameters for the header section */
   position: relative;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #f2f2f2;
 }
@@ -47,12 +49,12 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 
 .header__title {
   width: 730px;
-  margin: 0 0 0 64px;
+  margin: auto 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   color: #000000;
-  align-self: center;
+  display: flex;
   z-index: 1;
 }
 
@@ -103,14 +105,16 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
   margin-top: 100px;
 }
 
-.two-columns__brief {
+/* Called "two-columns__brief" in project instructions*/
+.two-columns {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 100px;
 }
 
-.two-columns__brief-header {
+/* Called "two-columns__brief" in project instructions*/
+.two-columns__brief {
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
@@ -321,19 +325,16 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
   justify-content: space-between;
 }
 
+.footer_column {
+  margin: 0;
+  display: flex;
+}
+
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
-}
-
-.footer__column_content_about {
-  margin: 0;
-}
-
-.footer__column_content_social {
-  margin: 0;
 }
 
 .logo_place_footer {
@@ -359,12 +360,12 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
 }
 
 .footer__list {
+  margin: 20px 0 auto 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 0;
-  padding: 0;
   list-style: none;
-  margin: 20px 0 auto 0;
 }
 
 .footer__column-link {
