@@ -1,8 +1,7 @@
-/* Red lines
+/* Red lines */
 body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
   border: 1px solid red;
 }
-*/
 
 
 /* Define page boundaries & alignment */
@@ -313,13 +312,12 @@ body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
   background-color: #1f1f1f;
   color: #ffffff;
   display: flex;
-  box-sizing: border-box;
 }
 
 .footer__columns {
   width: 90%;
-  min-height: 350px;
-  margin: 60px auto 40px;
+  margin: 0 auto;
+  padding: 60px 0 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
