@@ -1,0 +1,18 @@
+/* Red lines
+body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
+  border: 1px solid red;
+}
+*/
+
+
+/* Define page boundaries & alignment */
+.page {
+  min-width: 1100px;
+  /* we don't know how to make mobile versions of websites yet, */
+  /* so here we've set a minimum page width */
+  max-width: 1600px;
+  /* here we've set a maximum page width */
+  margin: 0 auto;
+  /* this ensures that all content is centered on screens wider than 1600px */
+  font-family: 'Helvetica Neue', 'Arial', 'sans-serif';
+}

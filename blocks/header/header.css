@@ -1,0 +1,18 @@
+@import url('./__title/');
+@import url('./__subtitle/');
+@import url('./__square-pic/');
+@import url('./__main-illustration/');
+@import url('./__link/');
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* parameters for the header section */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
