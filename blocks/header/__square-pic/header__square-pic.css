@@ -5,6 +5,7 @@
   background-color: #2f80ed;
   top: 64px;
   right: 0;
-  transform: rotate(345deg);
+  -webkit-transform: rotate(345deg);
+      -ms-transform: rotate(345deg);
+          transform: rotate(345deg);
 }
-

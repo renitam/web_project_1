@@ -7,5 +7,6 @@
   z-index: 1;
   background-image: url("./images/header-image.png");
   background-size: cover;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
