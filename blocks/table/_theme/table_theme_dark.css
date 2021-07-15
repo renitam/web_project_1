@@ -1,0 +1,7 @@
+@import url('table__cell_theme_dark.css');
+@import url('table__heading_theme_dark.css');
+@import url('table__text_theme_dark.css');
+
+.table_theme_dark {
+  position: relative;
+}
