@@ -5,8 +5,6 @@
   bottom: 0;
   right: 0;
   z-index: 1;
-  background-image: url("./images/header-image.png");
-  background-size: cover;
   -o-object-fit: contain;
      object-fit: contain;
 }

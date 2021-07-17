@@ -4,19 +4,3 @@
   height: 38px;
   object-fit: contain;
 }
-
-.resources__logo:nth-of-type(1) {
-  background-image: url('/images/logo/resources-tedED.png');
-}
-
-.resources__logo:nth-of-type(2) {
-  background-image: url('/images/logo/resources-Medium.png');
-}
-
-.resources__logo:nth-of-type(3) {
-  background-image: url('/images/logo/resources-dezeen.png');
-}
-
-.resources__logo:nth-of-type(4) {
-  background-image: url('/images/logo/resources-goodreads.png');
-}

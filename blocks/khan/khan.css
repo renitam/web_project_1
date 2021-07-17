@@ -10,7 +10,6 @@
 @import url('__buy-link/khan__buy-link.css');
 
 .khan {
-  display: flex;
   margin: 100px auto 0;
   background-color: #f2f2f2;
 }

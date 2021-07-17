@@ -1,7 +1,7 @@
-/* Red lines
+/* Red lines */
 body, div, header, img, h1, h2, h3, h4, a, p, section, footer, ul, li, span {
   border: 1px solid red;
-} */
+}
 
 /* Define page boundaries & alignment */
 .page {
