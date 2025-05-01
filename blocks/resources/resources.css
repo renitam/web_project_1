@@ -3,6 +3,6 @@
 @import url('__link/resources__link.css');
 
 .resources {
-  margin: 100px auto 217px;
-
+  margin: 100px 0 217px;
+  max-width: 1600px;
 }
