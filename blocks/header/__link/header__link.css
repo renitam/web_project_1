@@ -2,3 +2,12 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
+@media (max-width: 444px)  {
+  .header__link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #9cf08b;
+    opacity: 1;
+  }
+}

@@ -10,3 +10,10 @@
   display: flex;
   z-index: 2;
 }
+
+@media (max-width: 444px)  {
+  .header__title {
+    font-size: 22px;
+    color: ffffff;
+  }
+}
